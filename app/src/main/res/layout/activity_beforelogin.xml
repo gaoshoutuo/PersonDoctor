@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1EEEE"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您身边的医护天使"
+        android:textColor="#f00000"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="#F12345"
+        android:textSize="20dp"
+        android:text="3"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/corner_before"
+        android:id="@+id/lbtext"/>
+</RelativeLayout>
