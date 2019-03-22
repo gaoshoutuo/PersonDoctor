@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 没什么用 但是用来生成某个固定的sql语句用的-->
+    <root>
+    <cm class="001">
+        <name>润肺膏</name>
+        <cost>8</cost>
+        <price>30</price>
+        <profit>22</profit>
+        <pic>cm_001_rfg</pic>
+    </cm>
+
+    <cm class="002">
+        <name>双黄连口服液</name>
+        <cost>7</cost>
+        <price>18</price>
+        <profit>11</profit>
+        <pic>cm_002_shlkfy</pic>
+    </cm>
+
+    <cm class="003">
+        <name>抗病毒口服液</name>
+        <cost>11</cost>
+        <price>35</price>
+        <profit>24</profit>
+        <pic>cm_003_kbdkfy</pic>
+    </cm>
+
+    <cm class="004">
+        <name>金奥康</name>
+        <cost>10</cost>
+        <price>30</price>
+        <profit>20</profit>
+        <pic>cm_004_jak</pic>
+    </cm>
+
+    <cm class="005">
+        <name>头孢呋辛酯</name>
+        <cost>8</cost>
+        <price>25</price>
+        <profit>17</profit>
+        <pic>cm_005_tbfxz</pic>
+    </cm>
+
+    <cm class="006">
+        <name>安神补脑液</name>
+        <cost>9</cost>
+        <price>20</price>
+        <profit>21</profit>
+        <pic>cm_006_asbny</pic>
+    </cm>
+
+    <cm class="007">
+        <name>消痛贴膏</name>
+        <cost>15</cost>
+        <price>60</price>
+        <profit>45</profit>
+        <pic>cm_007_xttg</pic>
+    </cm>
+
+    <cm class="008">
+        <name>骨通贴膏</name>
+        <cost>10</cost>
+        <price>35</price>
+        <profit>25</profit>
+        <pic>cm_008_gttg</pic>
+    </cm>
+
+    <cm class="009">
+        <name>清开灵</name>
+        <cost>9</cost>
+        <price>20</price>
+        <profit>11</profit>
+        <pic>cm_009_qkl</pic>
+    </cm>
+
+    <cm class="010">
+        <name>扶他林</name>
+        <cost>9</cost>
+        <price>20</price>
+        <profit>21</profit>
+        <pic>cm_010_ftl</pic>
+    </cm>
+
+    <cm class="011">
+        <name>百多邦</name>
+        <cost>8</cost>
+        <price>25</price>
+        <profit>17</profit>
+        <pic>cm_011_bdb</pic>
+    </cm>
+
+    <cm class="012">
+        <name>马应龙痔疮膏</name>
+        <cost>6</cost>
+        <price>15</price>
+        <profit>9</profit>
+        <pic>cm_012_mylzcg</pic>
+    </cm>
+
+    <cm class="013">
+        <name>西比灵</name>
+        <cost>10</cost>
+        <price>23</price>
+        <profit>13</profit>
+        <pic>cm_013_xbl</pic>
+    </cm>
+
+    <cm class="014">
+        <name>吗丁啉</name>
+        <cost>10</cost>
+        <price>23</price>
+        <profit>13</profit>
+        <pic>cm_014_mdl</pic>
+    </cm>
+
+    <cm class="015">
+        <name>丁呋</name>
+        <cost>6</cost>
+        <price>15</price>
+        <profit>9</profit>
+        <pic>cm_015_df</pic>
+    </cm>
+
+    <cm class="016">
+        <name>达喜</name>
+        <cost>6</cost>
+        <price>20</price>
+        <profit>14</profit>
+        <pic>cm_016_dx</pic>
+    </cm>
+
+    <cm class="017">
+        <name>整肠生</name>
+        <cost>10</cost>
+        <price>33</price>
+        <profit>23</profit>
+        <pic>cm_017_zcs</pic>
+    </cm>
+
+    <cm class="018">
+        <name>云南白药气雾剂</name>
+        <cost>8</cost>
+        <price>30</price>
+        <profit>22</profit>
+        <pic>cm_018_ynbyqwj</pic>
+    </cm>
+
+    <cm class="019">
+        <name>洁尔阴</name>
+        <cost>8</cost>
+        <price>25</price>
+        <profit>17</profit>
+        <pic>cm_019_jey</pic>
+    </cm>
+
+    <cm class="020">
+        <name>钙片</name>
+        <cost>15</cost>
+        <price>50</price>
+        <profit>35</profit>
+        <pic>cm_020_gp</pic>
+    </cm>
+
+    <cm class="021">
+        <name>黄芪生脉饮</name>
+        <cost>7</cost>
+        <price>15</price>
+        <profit>8</profit>
+        <pic>cm_021_hqsmy</pic>
+    </cm>
+
+   <!-- <cm class="022">
+        <name>钙片</name>
+        <cost>15</cost>
+        <price>50</price>
+        <profit>35</profit>
+        <pic>cm_020_gp</pic>
+    </cm>
+
+    <cm class="020">
+        <name>钙片</name>
+        <cost>15</cost>
+        <price>50</price>
+        <profit>35</profit>
+        <pic>cm_020_gp</pic>
+    </cm>
+
+    <cm class="020">
+        <name>钙片</name>
+        <cost>15</cost>
+        <price>50</price>
+        <profit>35</profit>
+        <pic>cm_020_gp</pic>
+    </cm>
+
+    <cm class="020">
+        <name>钙片</name>
+        <cost>15</cost>
+        <price>50</price>
+        <profit>35</profit>
+        <pic>cm_020_gp</pic>
+    </cm>
+
+    <cm class="020">
+        <name>钙片</name>
+        <cost>15</cost>
+        <price>50</price>
+        <profit>35</profit>
+        <pic>cm_020_gp</pic>
+    </cm>
+
+    <cm class="020">
+        <name>钙片</name>
+        <cost>15</cost>
+        <price>50</price>
+        <profit>35</profit>
+        <pic>cm_020_gp</pic>
+    </cm>
+
+    <cm class="020">
+        <name>钙片</name>
+        <cost>15</cost>
+        <price>50</price>
+        <profit>35</profit>
+        <pic>cm_020_gp</pic>
+    </cm>
+
+    <cm class="020">
+        <name>钙片</name>
+        <cost>15</cost>
+        <price>50</price>
+        <profit>35</profit>
+        <pic>cm_020_gp</pic>
+    </cm>-->
+
+    </root>

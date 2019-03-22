@@ -6,6 +6,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
@@ -13,11 +14,13 @@ import android.widget.Toast;
 
 import com.example.a71568.persondoctor.R;
 import com.example.a71568.persondoctor.adapter.MenuGridviewAdapter;
+import com.example.a71568.persondoctor.bean.MedicineInfoBean;
 import com.example.a71568.persondoctor.bean.MenuBean;
 import com.example.a71568.persondoctor.testForNewJob.RyActivity;
 import com.example.a71568.persondoctor.util.HandUtil;
 import com.example.a71568.persondoctor.util.HandlerUtil;
 import com.example.a71568.persondoctor.util.OkhttpUtil;
+import com.example.a71568.persondoctor.util.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,7 +63,7 @@ public class MenuActivity extends BaseActivity {
     private List<MenuBean> listMap=new ArrayList<>();
     private int[]gridviewIcon={R.drawable.seeill,R.drawable.illhistory_64,R.drawable.health_news_64,R.drawable.medicine_64,
     R.drawable.update_64,R.drawable.doctor_info_64,R.drawable.notify_64,R.drawable.more_64,R.drawable.suggest_64};
-    private String[]gridviewText={"我要看病","病历","健康资讯","常用神药","检查更新","医生简介","通知公告","查看更多","意见与建议"};
+    private String[]gridviewText={"我要看病","病历","健康资讯","常用药","检查更新","医生简介","通知公告","查看更多","意见与建议"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -95,7 +98,7 @@ private AdapterView.OnItemClickListener clickListener=new AdapterView.OnItemClic
         case 0:
             packToast(0);
             //我懂了你为啥报错了 这是并行的  怪不得
-            OkhttpUtil.getOkhttp("http://176.122.185.2/picture/doctor_intelligence.json");
+           // OkhttpUtil.getOkhttp("http://176.122.185.2/picture/doctor_intelligence.json");
 
 
             // 这样不就拿到了吗只不过过程不是很美观 设计原则不是很准守  重复了 想startActivityForResult也封装
@@ -107,7 +110,8 @@ private AdapterView.OnItemClickListener clickListener=new AdapterView.OnItemClic
         case 2:
             packToast(2);
             break;
-        case 3:
+        case 3://常用药
+            startActivity(new Intent(MenuActivity.this, CommonMedicineActivity.class));
             packToast(3);
             break;
         case 4:
@@ -123,6 +127,16 @@ private AdapterView.OnItemClickListener clickListener=new AdapterView.OnItemClic
             packToast(7);
             break;
         case 8:
+            //String xmlStr=Utils.getFileString(getResources(),"cm_directory.xml");
+            //Log.e("xmlparse",xmlStr);
+           //ArrayList<MedicineInfoBean>list=Utils.xmlParse(xmlStr);
+         /*   for(MedicineInfoBean bean:list){
+                if (bean!=null)
+                //Log.e("parse0,", bean.getImageName());
+
+            }
+*/
+
             packToast(8);
             break;
         default:break;

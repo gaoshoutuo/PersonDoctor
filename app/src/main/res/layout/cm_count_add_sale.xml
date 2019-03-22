@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="4dp"
+    android:background="#fff"
+
+    >
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/cm_medicine_add"
+            android:text="进药品"
+            android:textColor="#000"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ccc"
+            ></View>
+
+        <RadioButton
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/cm_medicine_sale"
+            android:text="卖药品"
+            android:textColor="#000"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ccc"
+            ></View>
+        <EditText
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:id="@+id/cm_medicine_count"
+            android:inputType="number"
+            android:maxLength="1"
+            />
+
+    </RadioGroup>
+
+
+
+
+
+
+</LinearLayout>
+
+

@@ -36,7 +36,7 @@ public class SelectDoctor extends BaseActivity {
 
     private void initView(){
         recyclerView=f(R.id.select_doctor);
-      String xxs=  getIntent().getStringExtra("jsondata");
+        String xxs=  getIntent().getStringExtra("jsondata");
         ParseJsonUtil.ParseJsonArray(xxs);
         setCard();
     }

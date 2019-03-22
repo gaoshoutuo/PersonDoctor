@@ -1,0 +1,11 @@
+{
+  "json是无所谓顺序的，但是其他数据结构需要":{"cm_name":"","cm_price":"","cm_picture":"","cm_cost":"","cm_profit":""},
+"001":{"cm_name":"润肺膏","cm_price":30,"cm_picture":"","cm_cost":8,"cm_profit":22},
+  "002":{"cm_name":"","cm_price":"","cm_picture":"","cm_cost":"","cm_profit":""},
+  "003":{"cm_name":"","cm_price":"","cm_picture":"","cm_cost":"","cm_profit":""},
+  "004":{"cm_name":"","cm_price":"","cm_picture":"","cm_cost":"","cm_profit":""},
+  "005":{"cm_name":"","cm_price":"","cm_picture":"","cm_cost":"","cm_profit":""},
+  "006":{"cm_name":"","cm_price":"","cm_picture":"","cm_cost":"","cm_profit":""},
+  "007":{"cm_name":"","cm_price":"","cm_picture":"","cm_cost":"","cm_profit":""},
+  "008":{"cm_name":"","cm_price":"","cm_picture":"","cm_cost":"","cm_profit":""}
+}

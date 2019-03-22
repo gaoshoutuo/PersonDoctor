@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.a71568.persondoctor">
-
     <!-- 权限 好啊 -->
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,6 +11,7 @@
         android:label="私人医生"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activity.CommonMedicineActivity"></activity>
         <activity
             android:name=".activity.BeforeActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -30,7 +30,7 @@
         <activity android:name=".activity.SelectDoctor" />
         <activity android:name=".activity.DoctorDepartment" />
         <activity android:name=".activity.Community" />
-        <activity android:name=".testForNewJob.RyActivity"></activity>
+        <activity android:name=".testForNewJob.RyActivity" />
     </application>
 
 </manifest>

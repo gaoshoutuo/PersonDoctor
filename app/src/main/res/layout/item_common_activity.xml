@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="4dp"
+
+    >
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+
+        android:id="@+id/common_medicine_de"
+        android:visibility="gone"
+        android:textColor="#000"
+        android:text="卖出"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#ccc"
+        ></View>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:id="@+id/common_medicine_image"
+        android:scaleType="centerCrop"
+
+        android:layout_weight="1"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#ccc"
+        ></View>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:textColor="#000"
+
+        android:id="@+id/common_medicine_name"
+        android:layout_weight="1"
+        android:gravity="center"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#ccc"
+        ></View>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:textColor="#000"
+
+        android:id="@+id/common_medicine_price"
+        android:layout_weight="1"
+        android:gravity="center"
+        />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#ccc"
+        ></View>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:textColor="#000"
+
+        android:id="@+id/common_medicine_count"
+        android:layout_weight="1"
+        android:gravity="center"
+        />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#ccc"
+        ></View>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+
+        android:id="@+id/common_medicine_in"
+        android:visibility="gone"
+        android:textColor="#000"
+        android:text="增加"
+        />
+
+
+
+</LinearLayout>
+
+

@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">PersonDoctor</string>
+
+    <!--常用药表头字段-->
+    <string name="common_medicine_image">药品图片</string>
+    <string name="common_medicine_name">药品名称</string>
+    <string name="common_medicine_price">药品价格</string>
+    <string name="common_medicine_count">药品数量</string>
+
+    <string name="cm_dialog_title">药品数量增减</string>
+    cm_dialog_title
 </resources>
